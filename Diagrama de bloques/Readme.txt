@@ -1,0 +1,3 @@
+Diagrama de bloques
+
+El diagrama de bloques representa la arquitectura general del detector inteligente de nivel de agua. El sistema comienza con una fuente de alimentación que proporciona energía a los diferentes componentes. Los electrodos detectan el nivel del agua y generan señales eléctricas que son procesadas mediante divisores de voltaje y comparadores LM358. Las salidas de comparación controlan los LEDs indicadores correspondientes a los niveles bajo, medio y alto. Cuando se alcanza el nivel máximo, la señal activa un transistor BJT que controla el buzzer encargado de generar la alarma sonora.
